@@ -10,12 +10,10 @@ import { InMemoryCache } from 'apollo-cache-inmemory'
 
 const GITHUB_BASE_URL = 'https://api.github.com/graphql'
 
-const TOKEN = '6a957fd1838c8c0717f2e07d4af1d0ef7440f432'
-
 const httpLink = new HttpLink({
     uri: GITHUB_BASE_URL,
     headers: {
-        Authorization: `Bearer ${TOKEN}`,
+        Authorization: 'Bearer 532f7dc925d6db63261ff96c8e15eced969c8f2a',
     }
 })
 
