@@ -1,0 +1,17 @@
+.table-of-content {
+    flex: 1;
+    padding: 1em;
+}
+
+.thead-name, .thead-lang, .thead-tag {
+    width: 30%;
+}
+
+.thead-action {
+    width: 10%;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+}

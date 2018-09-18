@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-main-activity {
+  display: flex;
+  flex: 1;
+}
+
+.Result-left {
+  flex: 1;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.Search {
+  padding: 1em;
+  display: flex;
+  height: 48px;
+  margin-bottom: 1em;
+}
+
+.Search-textfield {
+  flex: 4;
+  margin-right: 10px;
+}
+
+.Search-button {
+  flex: 1;
+  height: auto;
+}
+
+.Result-right {
+  padding: 2em;
+  flex: 1;
+  background-color: #F6EAFE;
+}
+
+.App-header {
+  background-color: #6200EE;
+  padding: 20px;
+  color: white;
+}
