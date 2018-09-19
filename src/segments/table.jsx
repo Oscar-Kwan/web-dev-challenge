@@ -22,7 +22,7 @@ class Table extends React.PureComponent {
                         {_.compact(_.map(content, (v, i) => {
                             return (
                                 <tr key={i}>
-                                    <td>{_.get(v.node, 'nameWithOwner')}</td>
+                                    <td><a href={_.get(v.node, 'url')}>{_.get(v.node, 'nameWithOwner')}</a></td>
                                     <td>{_.get(v.node.primaryLanguage, 'name')}</td>
                                     <td>{_.get(_.head(v.node.releases.nodes), 'name') || '-'}</td>
                                     <td style={{ color:'#6200EE', cursor:'pointer' }} onClick={isAdd ? _.partial(this.props.add, v) : _.partial(this.props.remove, i)}>

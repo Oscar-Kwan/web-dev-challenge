@@ -31,6 +31,7 @@ class App extends React.PureComponent {
                         node {
                             ... on Repository {
                                 nameWithOwner
+                                url
                                 primaryLanguage {
                                     name
                                 }
@@ -64,6 +65,7 @@ class App extends React.PureComponent {
 
 
     _handleAdd = (value) => {
+        console.log(value)
         let prevFav = this.state.favorites
         this.setState({
             favorites: _.concat(prevFav, value)

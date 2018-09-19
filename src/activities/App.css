@@ -27,11 +27,12 @@
 .Search-textfield {
   flex: 4;
   margin-right: 10px;
+  height: 48px;
 }
 
 .Search-button {
   flex: 1;
-  height: auto;
+  height: 48px;
 }
 
 .Result-right {
